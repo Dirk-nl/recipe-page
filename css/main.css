@@ -27,10 +27,14 @@
     min-height: 750px;
     margin-top: 100px;
     border-radius: 10px;
+    padding: 25px;
 }
 
 .preptime {
     background-color: var(--Rose_White);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
 }
 
 .preptime_title {
@@ -38,10 +42,27 @@
 }
 
 .omelette {
-    width: 300px;
-    padding: 37.5px;
+    min-width: 325px;
+    max-width: 600px;
 }
 
-h2 {
+.title {
+    color: var(--Charcoal);
+    font-size: xx-large;
+}
+
+h2, .nutrition_numbers, .nutrition_numbers_bottom {
     color: var(--Nutmeg);
+}
+
+.nutrition_numbers,  .horizontal_rule {
+    border-bottom: 1px solid var(--Wenge_Brown);
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 0;
 }
